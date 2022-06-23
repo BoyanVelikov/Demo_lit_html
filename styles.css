@@ -1,0 +1,46 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    background: lightblue;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 100px auto 60px auto;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-profile {
+    max-width: 30%;
+    box-shadow: 0px 0px 7px --2px black;
+    border-radius: 12px;
+    background: #fff;
+    text-align: center;
+    list-style: none;
+
+}
+
+.user-profile h2 {
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.user-profile p {
+    padding: 0 20px 20px 20px;
+}
+
+.user-profile img {
+    width: 70%;
+    border-radius: 12px;
+}
+
